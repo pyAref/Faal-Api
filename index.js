@@ -13,7 +13,7 @@ const init = async () => {
         // port number
         port: config.port || 3000,
         // hostname
-        host: 'localhost'        
+        host: config.host || 'localhost'  
     });
 
     server.route({
